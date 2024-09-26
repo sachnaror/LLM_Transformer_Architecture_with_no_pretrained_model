@@ -1,7 +1,7 @@
 # Welcome to the LLM Transformer Project!
 
 
-
+```
 ├── LLM_Transformer_Architecture_with_no_pretrained_model/
 │   ├── requirements.txt
 │   ├── README.md
@@ -32,6 +32,7 @@
 │   │   └── processed_text/
 │   │   └── embedding_vectors/
 
+```
 
 ## What is this project?
 
@@ -119,6 +120,3 @@ If you have any questions or need help, feel free to ask!
 
 ---
 
-
-
-```
