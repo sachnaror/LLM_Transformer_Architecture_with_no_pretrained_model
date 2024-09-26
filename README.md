@@ -1,5 +1,38 @@
 # Welcome to the LLM Transformer Project!
 
+
+
+├── LLM_Transformer_Architecture_with_no_pretrained_model/
+│   ├── requirements.txt
+│   ├── README.md
+│   ├── .env
+│   ├── manage.py
+│   ├── vector_database/
+│   │   ├── milvus_index.bin
+│   │   ├── faiss_index.bin
+│   │   └── db_config.py
+│   ├── llm_app/
+│   │   ├── urls.py
+│   │   └── views.py
+│   │   ├── models/
+│   │   │   └── embedding_model.py
+│   │   └── static/
+│   │   ├── api/
+│   │   │   ├── serializers.py
+│   │   │   ├── urls.py
+│   │   │   └── views.py
+│   │   └── templates/
+│   ├── scripts/
+│   │   ├── generate_embeddings.py
+│   │   ├── load_faiss_index.py
+│   │   ├── train_custom_model.py
+│   │   └── optimize_faiss_index.py
+│   ├── data/
+│   │   └── raw_text/
+│   │   └── processed_text/
+│   │   └── embedding_vectors/
+
+
 ## What is this project?
 
 This project is like a magic box that helps us understand and create cool things with words! It uses something called a **Transformer**, which is a special kind of computer brain that can learn from a lot of information.
@@ -89,34 +122,3 @@ If you have any questions or need help, feel free to ask!
 
 
 ```
-
-├── LLM_Transformer_Architecture_with_no_pretrained_model/
-│   ├── requirements.txt
-│   ├── README.md
-│   ├── .env
-│   ├── manage.py
-│   ├── vector_database/
-│   │   ├── milvus_index.bin
-│   │   ├── faiss_index.bin
-│   │   └── db_config.py
-│   ├── llm_app/
-│   │   ├── urls.py
-│   │   └── views.py
-│   │   ├── models/
-│   │   │   └── embedding_model.py
-│   │   └── static/
-│   │   ├── api/
-│   │   │   ├── serializers.py
-│   │   │   ├── urls.py
-│   │   │   └── views.py
-│   │   └── templates/
-│   ├── scripts/
-│   │   ├── generate_embeddings.py
-│   │   ├── load_faiss_index.py
-│   │   ├── train_custom_model.py
-│   │   └── optimize_faiss_index.py
-│   ├── data/
-│   │   └── raw_text/
-│   │   └── processed_text/
-│   │   └── embedding_vectors/
-
