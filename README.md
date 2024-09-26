@@ -60,6 +60,33 @@ Here’s what you’ll find in our project:
 
 2. **Install Requirements**: Open your terminal (it’s like a magic command center) and type this:
 
+```
+pip install -r requirements.txt
+
+```
+
+This will gather all the special tools we need!
+
+
+
+3. **Run the Project**: To start our magic, type:
+
+```
+python manage.py runserver
+
+```
+
+Now you can see the project in your web browser!
+
+---
+
+## Need Help?
+
+If you have any questions or need help, feel free to ask!
+
+---
+
+
 
 ```
 
